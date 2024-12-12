@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #820808, #33AEFF);
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+ 
+nav ul li a:hover {    
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.productos { 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 20px;    
+}
+
+.producto {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: brown;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
